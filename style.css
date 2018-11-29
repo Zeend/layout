@@ -1,0 +1,117 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+
+}
+
+.contenedor{
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/*  HEADER */
+header{
+    background-color: #FF6F00;
+    overflow: hidden;
+
+}
+
+header nav ul{
+    float: left;
+}
+header nav ul li{
+    display: inline-block;
+    
+}
+header nav ul li a{
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+}
+header nav ul li a:hover{
+    background-color: #FFA000;
+}
+.main{
+    float: left;
+    width: 75%;
+    background-color: #fff;
+}
+.posts{
+    padding: 30px;
+}
+.posts p{
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.imagen img{
+    width: 100%;
+}
+
+aside{
+    background-color: #FFA000;
+    float: right;
+    width: 25%;
+}
+.widget{
+    padding: 20px;
+}
+.widget ul li a{
+    display: block;
+    margin: 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+.widget p{
+    padding-top: 10px;
+    text-align: justify;
+    color: #fff;
+}
+.titulo{
+    color: #fff;
+    border-bottom: 2px solid #fff;    
+}
+
+footer{
+    clear: both;
+    background-color: #FFAB00;
+    width: 75%;
+    
+}
+
+footer p{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+    
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: red;
+    }
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
